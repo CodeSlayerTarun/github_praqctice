@@ -1,0 +1,45 @@
+NOTATIONS:
+** subtopic
+--> points to that topic
+=> meaning/answers/conclusions
+-----------------division
+***MAIN TOPIC***
+$$$ COMMANDS
+--------------------------------------------
+Git and Github? The difference?
+
+**Git: 
+-> Version Control System
+-> Manage Source Code History
+-> Runs, Local
+
+**Github:
+-> Hosting and Collaboration Provider
+-> Git Repository Hosting
+-> Runs, Web Based
+
+Means => Git ---> push ---> Github 
+
+Other examples: AWS code commit
+----------------------------------------------
+***GIT***
+3 important keywords: Repositories, Branches and Commits
+
+1.Repository:
+-> The location where your code history is stored
+
+2.Branch:
+-> "Folder" within the Repository containing Commits
+-> Not exactly Folder
+
+3.Commits:
+Different stages of your code inside a Branch
+
+---Download git from git-scm.com---
+
+Git does not come with any interface, only command based.
+
+
+
+
+
