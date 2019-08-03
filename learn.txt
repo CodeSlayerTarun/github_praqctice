@@ -87,8 +87,15 @@ $$$ git checkout -- .
 -> multiple coder can have different branches and they can try out there logics
 -> when it is done so you can merge the brancj in to master
 
-$$$ git checkout -b new-feature
+$$$ git checkout -b branch_name
 -> New branch is created and switched to it
-
 -> the new branch will include all the commits from master branch
 
+$$$ git merge branch_name
+-> merges the branch to masterq
+
+$$$ git branch -D branch_name
+-> to delete a branch
+-> carefula and do it after merging 
+
+**Git can also identify conflicts.
