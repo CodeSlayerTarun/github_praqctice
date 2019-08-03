@@ -103,3 +103,37 @@ $$$ git branch -D branch_name
 **Git can also identify conflicts.
 -------------------------------------------------
 ****GITHUB****
+
+-> Bring the code from local to cloud
+
+$$ git remote add origin https://github.com/repo link.git 
+-> this will establish link with the repo to Github
+-> also the repo as origin (name)
+-> branches and commits won't be push to remote yet
+
+$$ git push -u origin master
+-> uploads master branch to remote 
+-> "-u" for upstream
+-> prompts to enter username and password
+
+$$ git remote
+-> list remote repo name (incase origin)
+
+$$ git branch -r 
+-> this means the connection between local branch and remote branch
+
+$$ git push
+-> the remote code will be updated  
+-> only after git commit 
+
+$$ git fetch
+-> loads the code from remote 
+-> But it won't show 
+-> for that use below
+
+$$ git merge origin/master
+-> this will merge local repo and remote tracking branch 
+
+$$ git pull (combines above 2 commands)
+-> fetch and merge together
+
