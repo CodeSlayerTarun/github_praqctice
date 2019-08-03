@@ -38,6 +38,32 @@ Different stages of your code inside a Branch
 ---Download git from git-scm.com---
 
 Git does not come with any interface, only command based.
+-------------------------------------------------------
+
+$$$ git config --global user.email "email_id@abc.com"
+$$$ git config --global user.name "your_name"
+-> to login into git locally
+
+$$$ git init
+-> initialize the git repo and begins managing the Folder
+-> it's a hidden folder and Local
+
+$$$ git status
+-> gives status, shows tracked and untracked files
+
+$$$ git add .
+-> adds the file for tracking
+-> . means all files
+
+$$$ git commit -m "commit name"
+-> adds the version of the code
+-> all commits to be named
+
+$$$ git log 
+-> show log of all commits
+
+$$$ git branch 
+-> shows all the Branches
 
 
 
