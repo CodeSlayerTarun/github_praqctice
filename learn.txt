@@ -65,7 +65,30 @@ $$$ git log
 $$$ git branch 
 -> shows all the Branches
 
+$$$ git checkout unique_id
+-> to go at particular commit or stage of the file
 
+$$$ git master /OR/ git checkout master
+-> going back to master from last checkout
 
+$$$ git reset --hard unique_id
+-> to delete a particular commit or code 
 
+$$$ git checkout -- .
+-> you did something wrong
+-> now want to go back to previous code 
+-> that is you can delete the unstaged commit
+
+**what about branches?
+-> suppose you website is already in the market and you want try out some new feature
+-> how can you do it without crashing the website
+-> how experiment this new code
+-> well you can create new branch for it and try out some experiments 
+-> multiple coder can have different branches and they can try out there logics
+-> when it is done so you can merge the brancj in to master
+
+$$$ git checkout -b new-feature
+-> New branch is created and switched to it
+
+-> the new branch will include all the commits from master branch
 
