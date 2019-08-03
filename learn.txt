@@ -101,3 +101,5 @@ $$$ git branch -D branch_name
 -> carefula and do it after merging 
 
 **Git can also identify conflicts.
+-------------------------------------------------
+****GITHUB****
