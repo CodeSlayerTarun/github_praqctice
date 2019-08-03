@@ -8,6 +8,8 @@ $$$ COMMANDS
 --------------------------------------------
 Git and Github? The difference?
 
+-> learn git-scm from git chapter 2 (2.1) on the website
+
 **Git: 
 -> Version Control System
 -> Manage Source Code History
